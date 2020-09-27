@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    <body>
+        {{> header}}
+            <h1>Weather reports here from hbs!</h1>
+            <form action="">
+                <label>Place Name</label>
+                <input type="text">
+                <input type="submit" value="Get Weather">
+            </form>
+
+            
+            <label>country</label><p id="country"></p>
+            <label>region</label><p id="region"></p>
+            <label>temperature</label><p id="temperature"></p>
+            <label>visibility</label><p id="visibility"></p>
+            <label>weather_descriptions</label><p id="weather_descriptions"></p>
+            
+            
+
+        {{> footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
